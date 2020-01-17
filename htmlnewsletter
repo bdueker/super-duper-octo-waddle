@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
 	<body>
+	<img scr="https://github.com/bdueker/super-duper-octo-waddle/blob/master/Nevada%20Public%20Library.png" alt =Nevada Public Library Header" width="2500" height="300" />
 	<h1> Nevada Public Library Newsletter: February 2020 </h1>
 	<hr />
 		<h2> Now Accepting Applications for a Student Clerk </h2>
@@ -13,6 +15,12 @@
 			<p><i>Reservations are available throughout the month</i></p>
 			<p>Once again, the AARP Foundation will be offering tax assistance here at the library in February, March and April! Call (515) 382-2628 to schedule an appointment.</p>
 	<hr />
+		<p> <img scr="https://github.com/bdueker/super-duper-octo-waddle/blob/master/Square_Secret%20Origin%20of%20Comics.png" alt="Secret Origin of Comics" />
+		img.align-left {
+			float: left;
+			margin-right:10px;}
+		img.medium {width: 500px;
+			height: 500px;}
 		<h2> The Secret Origin of Comics</h2>
 			<p><i>Wednesday, February 19 at 6:30 pm</i></p>
 			<p>Learn all about comics! Dr. Zachary King, who received his PhD in English Literature from the University of Iowa, will discuss the the history of the medium, how comics have evolved into what they are today, and just what the heck a graphic novel is, anyway.  New to reading the format? You’ll leave feeling like a pro, and with some great recommendations if you want to try reading comics yourself.</p>
