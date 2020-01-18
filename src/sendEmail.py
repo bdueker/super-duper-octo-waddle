@@ -36,8 +36,14 @@ def sendEmail(resList, emailBody):
         senderName = 'Tester'
 
     for receiverName, receiverEmail in zip(receiverNames, receiverEmails):
+        
+        if len(receiverName) == 0:
+            rName = receiverEmail
+        else:
+            rName = receiverName
+        print("Sending Email to ", rName)
+        
         msg = MIMEText(emailBody, 'html')
-        print("Sending Email to ", receiverName)
         msg["To"] = formataddr((receiverName, receiverEmail))
         msg["From"] = formataddr((senderName,senderEmail))
         msg["Subject"] = "This is simply a test with multiple people"
